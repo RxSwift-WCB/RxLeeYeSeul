@@ -1,0 +1,6 @@
+framework module Pods_RxSwfitPlayground_Ch3 {
+  umbrella header "Pods-RxSwfitPlayground-Ch3-umbrella.h"
+
+  export *
+  module * { export * }
+}
