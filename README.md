@@ -2,4 +2,4 @@
 
 [Ch3.Subjects](./Ch3.Subjects/Ch3-README.md)
 
-[Ch.4 Observables and Subjuects in Practice](./Ch.4\nObservables\nn\nSubjuects\nin\nPractice/Ch4-README.md)
+[Ch.4 Observables and Subjects in Practice](./Ch.4\nObservables\nn\nSubjects\nin\nPractice/Ch4-README.md)
