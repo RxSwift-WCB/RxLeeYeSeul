@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B86FE05C254C76C600D8D669 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FE057254C76C600D8D669 /* MainViewController.swift */; };
+		B86FE05D254C76C600D8D669 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FE058254C76C600D8D669 /* PhotosViewController.swift */; };
+		B86FE05E254C76C600D8D669 /* PhotoWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FE059254C76C600D8D669 /* PhotoWriter.swift */; };
+		B86FE05F254C76C600D8D669 /* UIImage+Collage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FE05A254C76C600D8D669 /* UIImage+Collage.swift */; };
+		B86FE060254C76C600D8D669 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FE05B254C76C600D8D669 /* PhotoCell.swift */; };
 		B8D23295254B02C3000FCCCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D23294254B02C3000FCCCA /* AppDelegate.swift */; };
 		B8D23297254B02C3000FCCCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D23296254B02C3000FCCCA /* SceneDelegate.swift */; };
-		B8D23299254B02C3000FCCCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D23298254B02C3000FCCCA /* ViewController.swift */; };
 		B8D2329C254B02C3000FCCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D2329A254B02C3000FCCCA /* Main.storyboard */; };
 		B8D2329E254B02C9000FCCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8D2329D254B02C9000FCCCA /* Assets.xcassets */; };
 		B8D232A1254B02C9000FCCCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D2329F254B02C9000FCCCA /* LaunchScreen.storyboard */; };
@@ -19,10 +23,14 @@
 /* Begin PBXFileReference section */
 		0B6FCA3260C7E27842333C7A /* Pods_RxSwfitPlayground_Ch3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwfitPlayground_Ch3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35246637859EEA0B5F5F68E0 /* Pods-RxSwfitPlayground-Ch3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwfitPlayground-Ch3.debug.xcconfig"; path = "Target Support Files/Pods-RxSwfitPlayground-Ch3/Pods-RxSwfitPlayground-Ch3.debug.xcconfig"; sourceTree = "<group>"; };
+		B86FE057254C76C600D8D669 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../../../../Downloads/RxSwift_Reactive_Programming_with_Swift_v3.0_Source_Code/04-observables-in-practice/starter/combinestagram/MainViewController.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B86FE058254C76C600D8D669 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosViewController.swift; path = "../../../../Downloads/RxSwift_Reactive_Programming_with_Swift_v3.0_Source_Code/04-observables-in-practice/starter/combinestagram/PhotosViewController.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B86FE059254C76C600D8D669 /* PhotoWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoWriter.swift; path = "../../../../Downloads/RxSwift_Reactive_Programming_with_Swift_v3.0_Source_Code/04-observables-in-practice/starter/combinestagram/PhotoWriter.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B86FE05A254C76C600D8D669 /* UIImage+Collage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Collage.swift"; path = "../../../../Downloads/RxSwift_Reactive_Programming_with_Swift_v3.0_Source_Code/04-observables-in-practice/starter/combinestagram/UIImage+Collage.swift"; sourceTree = "<group>"; };
+		B86FE05B254C76C600D8D669 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCell.swift; path = "../../../../Downloads/RxSwift_Reactive_Programming_with_Swift_v3.0_Source_Code/04-observables-in-practice/starter/combinestagram/PhotoCell.swift"; sourceTree = "<group>"; };
 		B8D23291254B02C3000FCCCA /* RxSwfitPlayground-Ch3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwfitPlayground-Ch3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D23294254B02C3000FCCCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8D23296254B02C3000FCCCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B8D23298254B02C3000FCCCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B8D2329B254B02C3000FCCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8D2329D254B02C9000FCCCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8D232A0254B02C9000FCCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,7 +57,6 @@
 				35246637859EEA0B5F5F68E0 /* Pods-RxSwfitPlayground-Ch3.debug.xcconfig */,
 				BEBC3F5EBB064FF550055EFD /* Pods-RxSwfitPlayground-Ch3.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,9 +90,13 @@
 		B8D23293254B02C3000FCCCA /* RxSwfitPlayground-Ch3 */ = {
 			isa = PBXGroup;
 			children = (
+				B86FE057254C76C600D8D669 /* MainViewController.swift */,
+				B86FE05B254C76C600D8D669 /* PhotoCell.swift */,
+				B86FE058254C76C600D8D669 /* PhotosViewController.swift */,
+				B86FE059254C76C600D8D669 /* PhotoWriter.swift */,
+				B86FE05A254C76C600D8D669 /* UIImage+Collage.swift */,
 				B8D23294254B02C3000FCCCA /* AppDelegate.swift */,
 				B8D23296254B02C3000FCCCA /* SceneDelegate.swift */,
-				B8D23298254B02C3000FCCCA /* ViewController.swift */,
 				B8D2329A254B02C3000FCCCA /* Main.storyboard */,
 				B8D2329D254B02C9000FCCCA /* Assets.xcassets */,
 				B8D2329F254B02C9000FCCCA /* LaunchScreen.storyboard */,
@@ -208,9 +219,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8D23299254B02C3000FCCCA /* ViewController.swift in Sources */,
+				B86FE05F254C76C600D8D669 /* UIImage+Collage.swift in Sources */,
 				B8D23295254B02C3000FCCCA /* AppDelegate.swift in Sources */,
 				B8D23297254B02C3000FCCCA /* SceneDelegate.swift in Sources */,
+				B86FE060254C76C600D8D669 /* PhotoCell.swift in Sources */,
+				B86FE05E254C76C600D8D669 /* PhotoWriter.swift in Sources */,
+				B86FE05C254C76C600D8D669 /* MainViewController.swift in Sources */,
+				B86FE05D254C76C600D8D669 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
